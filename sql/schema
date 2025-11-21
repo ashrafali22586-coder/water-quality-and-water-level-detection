@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS results (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    pH REAL NOT NULL,
+    turbidity REAL NOT NULL,
+    conductivity REAL NOT NULL,
+    temperature REAL NOT NULL,
+    prediction INTEGER NOT NULL,
+    probability REAL NOT NULL
+);
